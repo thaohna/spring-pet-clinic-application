@@ -1,0 +1,5 @@
+com\anhthao\petclinic\models\Pet.class
+com\anhthao\petclinic\models\PetType.class
+com\anhthao\petclinic\models\Vet.class
+com\anhthao\petclinic\models\Person.class
+com\anhthao\petclinic\models\Owner.class
