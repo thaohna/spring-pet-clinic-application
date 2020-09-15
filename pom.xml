@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.anhthao</groupId>
     <artifactId>anhthao-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>anhthao-pet-clinic</name>
     <description>Pet Clinic Project</description>
 
@@ -34,6 +34,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -41,7 +42,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/thaohna/spring-pet-clinic-application.git</developerConnection>
-      <tag>anhthao-pet-clinic-0.0.1</tag>
-  </scm>
+     </scm>
 
 </project>
