@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.anhthao</groupId>
     <artifactId>anhthao-pet-clinic</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>anhthao-pet-clinic</name>
     <description>Pet Clinic Project</description>
 
@@ -42,6 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/thaohna/spring-pet-clinic-application.git</developerConnection>
-     </scm>
+       <tag>anhthao-pet-clinic-1.0.3</tag>
+  </scm>
 
 </project>
