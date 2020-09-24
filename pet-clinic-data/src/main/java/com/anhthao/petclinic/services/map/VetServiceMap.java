@@ -1,12 +1,14 @@
 package com.anhthao.petclinic.services.map;
 
 import com.anhthao.petclinic.models.Vet;
-import com.anhthao.petclinic.services.CrudService;
+import com.anhthao.petclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long>
-        implements CrudService<Vet, Long> {
+        implements VetService {
     @Override
     public Vet findById(Long id) {
         return super.findById(id);
@@ -29,7 +31,7 @@ public class VetServiceMap extends AbstractMapService<Vet, Long>
 
     @Override
     public Vet save(Vet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 }
 
