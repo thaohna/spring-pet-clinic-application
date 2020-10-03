@@ -1,1 +1,5 @@
+com\anhthao\petclinic\controllers\OwnerController.class
+com\anhthao\petclinic\bootstrap\DataLoader.class
 com\anhthao\petclinic\AnhthaoPetClinicApplication.class
+com\anhthao\petclinic\controllers\IndexController.class
+com\anhthao\petclinic\controllers\VetController.class

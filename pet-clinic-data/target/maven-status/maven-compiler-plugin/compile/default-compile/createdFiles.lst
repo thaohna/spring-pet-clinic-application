@@ -1,5 +1,14 @@
-com\anhthao\petclinic\models\Pet.class
-com\anhthao\petclinic\models\PetType.class
+com\anhthao\petclinic\services\map\PetServiceMap.class
 com\anhthao\petclinic\models\Vet.class
+com\anhthao\petclinic\services\CrudService.class
+com\anhthao\petclinic\services\map\VetServiceMap.class
+com\anhthao\petclinic\services\VetService.class
+com\anhthao\petclinic\models\Pet.class
+com\anhthao\petclinic\services\map\AbstractMapService.class
+com\anhthao\petclinic\services\map\OwnerServiceMap.class
 com\anhthao\petclinic\models\Person.class
 com\anhthao\petclinic\models\Owner.class
+com\anhthao\petclinic\services\PetService.class
+com\anhthao\petclinic\services\OwnerService.class
+com\anhthao\petclinic\models\PetType.class
+com\anhthao\petclinic\models\BaseEntity.class
